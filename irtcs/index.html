@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>train</title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" href="./css/animate.css">
+
+
+</head>
+<body>
+<!--start here -->
+
+
+<header>
+    <div class="container animated zoomInLeft">
+        <div class="hamburger-menu">
+            <i class="fa fa-bars toggle"></i>
+            <i class="fa fa-times toggle"></i>
+         
+        </div>
+        <nav class="d-flex align-items-center justify-content-center justify-content-lg-between">
+           <a class="nav-brand" href="index.html">
+              <h1>BOOKING</h1>
+           </a>
+            <ul class="nav-list text-center p-0">
+                <li>
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+           <li>
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+              
+                <li>
+                    <a class="nav-link" href="service.html">SERVICE
+                        
+                    
+                    </a>
+                </li>
+                
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          TRAIN
+        </a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  
+  <div class="form-group row">
+    <label for="from" class="col-sm-2 col-form-label" >From:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="from" placeholder="from*" required>
+    </div>
+  </div>
+
+  <div class="form-group row ">
+    <div class="collumn m-auto">
+      <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </div>
+   <br><br>
+  </div>
+  <div class="form-group row">
+    <label for="TO" class="col-sm-2 col-form-label">TO:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="TO" placeholder="TO*" required>
+    </div>
+  </div>
+
+  <div class="form-group row ">
+    <div class="col-sm-10 m-auto">
+      <button type="submit" class="btn btn-primary ">search</button>
+    </div>
+  </div>
+  
+</div  >
+
+
+
+      </li>
+                
+              
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          pnr&status
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+<form>
+  <tr>
+    <td>
+     
+<label>PNR NO:</label></td>
+<td>
+<input type="number" name="number" value="number" required>
+</td>
+<br><br>
+
+</tr>
+<tr>
+<td></td>
+<td>
+<button type="button" class="btn btn-primary ">check</button>
+</td>
+</tr>
+</form>
+
+
+
+
+
+
+        </div>
+      </li>
+
+            </ul>
+      </nav>
+        <div class="hero-text w-100 text-white px-5 px-sm-0">
+            <h1 class="display-4">welcome</h1>
+            <p class="lead mb-4">to the oficial web side of railwAY GOVT ONLINE TIKET BOOKING</p>
+            <a class="btn px-5 mr-2" href="my.html">LOGIN</a>
+            <a class="btn px-5 ml-2" href= "abc.html">SIGHN&UP</a>
+        </div>
+    </div>
+</header>
+
+<main>
+<!--booking-->
+
+
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="row align-item-lg-center">
+          <div class="col-12 col-md-6 text-center text-md-left" data-aos="fade-right">
+              <div class="section-heading mb-3">
+                  
+                  <h4 class="display-4">advance tiket booking for reservation</h4>
+              </div>
+              <p>
+                   perspiciatis, placeat sunt tempora voluptatem? Aspernatur autem, consequatur corporis debitis eos, ex harum incidunt minus modi ratione, repellendus repudiandae suscipit temporibus. Ducimus expedita illum labore nesciunt odio rerum vitae? Recusandae, voluptates.
+              </p>
+              <a class="btn mt-4 mb-5 mb-md-0 m-auto" data-target="#mymodal" data-toggle="modal">BOOKING</a>
+          </div>
+            <div class="col-12 col-md-6 pic" data-aos="fade-left">
+    
+                <img class="img-fluid" src="/img/gettyimages-600189970-2048x2048.jpg" alt="">
+    
+            </div>
+            <!--pop-->
+            <div class="modal animated zoomInLeft" id="mymodal" >
+
+              
+                <div class="modal-dailog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                       <h3 class="text-center text-primary m-auto ">BOOKING</h3>
+                       <button type="button" class="close" data-dismiss="modal"> &times;</button>
+                    </div>
+
+               <div class="modal-body">
+                <form>
+                    <div class="form-group row">
+                      <label for="from" class="col-sm-2 col-form-label">From:</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="from" placeholder="from*" required>
+                      </div>
+                    </div>
+
+                    <div class="form-group row ">
+                      <div class="collumn m-auto">
+                        <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+                        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+                      </div>
+                     <br><br>
+                    </div>
+                    <div class="form-group row">
+                      <label for="TO" class="col-sm-2 col-form-label">TO:</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="TO" placeholder="TO*" required>
+                      </div>
+                    </div>
+                    <fieldset class="form-group">
+                      <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-0">AGE</legend>
+                        <div class="col-sm-10">
+                         
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="adult" id="adult" value="adult" required>
+                            <label class="form-check-label" for="adult">adult</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="child" id="child" value="child" required>
+                            <label class="form-check-label" for="child">child</label>
+                          </div>
+                          </div>
+                      </div>
+                    </fieldset>
+
+                    <div class="form-group row">
+                      <label for="from" class="col-sm-2 col-form-label">class</label>
+                      <div class="col-sm-10">
+                        
+                        <select class="custom-select mr-sm-2" id="class" required>
+                          <option selected>All class</option>
+                          <option value="1tier AC">1tier AC</option>
+                          <option value="2tier AC">2tier AC</option>
+                          <option value="3tier AC">3tier AC</option>
+                          <option value="general">general</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <div class="col-sm-10 m-auto">
+                        <button type="submit" class="btn btn-primary ">BOOKING</button>
+                      </div>
+                    </div>
+                  </form>
+
+               </div>
+
+         </div>
+                
+        </div>
+                
+                </div>
+                
+        </div>
+
+    </div>   
+
+    </section>
+
+
+<!---section-->
+<section class="yrt">
+    <h1>HOLIDAYS</h1>
+    <div class="container animated 	zoomInRight">
+    <div class="row">
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./holidays/1_large.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h3>budha temple</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./holidays/9_large.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h3>siachin</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./holidays/6_medium.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h3>roulkela</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+</section>
+<section class="rtx">
+
+    <div class="container animated 	zoomInLeft">
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./holidays/1_large.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h3>budha temple</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./holidays/9_large.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h3>siachin</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./holidays/6_medium.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h3>roulkela</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+</div>
+
+</div>
+</section>
+
+
+
+
+<!--footer-->
+
+
+
+    <footer class="footer">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row section_gap">
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                   <div class="single-footer-widget tp_widget">
+                       <h4 class="footer_title large_title">About Us
+                       </h4>
+                       <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero sequi quae debitis explicabo. Nobis blanditiis, officiis expedita quos quis, hic culpa dolores sequi voluptas laborum in eligendi a tempore harum.
+                       </p>
+                       <p>copryght &copy;2020 all Right Reserved</p>
+
+                   </div>
+                    </div>
+          <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+              <div class="single-footer-widget tp_widgets">
+                  <h4 class="footer_title">QUICK links</h4>
+                  <ul class="list">
+                      <li><a href="#">link</a></li>
+                      <li><a href="#">link</a></li>
+                      <li><a href="#">link</a></li>
+                      <li><a href="#">link</a></li>
+                  </ul>
+
+              </div>
+
+          </div>
+
+              <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+                  <div class="single-footer-widget tp_widgets">
+                      <h4 class="footer_title">contact us</h4>
+                      <div class="ml-5">
+                          <p class="sm-head">
+                              <span class="fa fa-university" aria-hidden="true">Online booking</span>
+                          </p>
+                          <p class="sm-head"><span class="fa fa-mobile"></span> mobile</p>
+                       <p>
+                           +91 01239898989
+                       </p>
+                       <p class="sm-head">
+                        <span class="fa fa-envelope"></span>Email
+                       </p>
+                       <p>
+                           railway@gmail.com
+                       </p>
+                      </div>
+                  </div>
+              </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+</main>
+
+<script src="https://kit.fontawesome.com/ba33ab971e.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/js/scripts.js" type="text/javascript"></script>
+</body>
+</html>

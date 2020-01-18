@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+a{
+    color:tomato!important;
+}
+p{
+    margin: 0;
+}
+section{
+    padding: 60px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:
+    url("/img/Train\ Full\ HD\ \(High\ Definition\)\ Wallpapers\ 1080p\ \(4\).jpg")center no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+ 
+header > .container{
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+.nav-brand{
+position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 650ms;
+}
+.nav-brand:hover{
+    opacity: .8;
+
+}
+.hamburger-menu{
+    position: fixed;
+    top: 25px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 999;
+}
+.hamburger-menu i{
+ font-size: 30px;
+    color: rgba(47, 173, 125, 0.7);
+}
+.hamburger-menu .fa-times{
+    display: none;
+}
+.hamburger-menu .fa-times.open{
+    display: block;
+}
+.hamburger-menu .fa-bars.open{
+    display: none;
+}
+.nav-list{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    list-style: none;
+    background-color: #101D2c;
+    z-index: 900;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 650ms;
+    display: inline-flex;
+    
+
+}
+.nav-list.open{
+    opacity: 1;
+    transform: scale(1);
+}
+.hero-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+}
+.hero-text h1{
+    font-family: "Niconne", cursive;
+    color: #1f4ac0;
+}
+.hero-text P{
+    color:white;
+    font-size: 40px;
+}
+
+
+.btn{
+    width: 100px;
+    padding: 5px 0 !important;
+    border: 3px solid red;
+    position: relative;
+    overflow: hidden;
+    color: black !important;
+    
+
+}
+.btn:hover{
+    background-color: red !important;
+    color: whitesmoke!important;
+    box-shadow: 0 0 50px red;
+
+}
+/*about*/
+
+.section-heading h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:gray;
+}
+.about .btn{
+    width: 150px;
+    color: goldenrod!important;
+    transition: background-color 650ms;
+    margin-top: 30px !important;
+    
+}
+.about .btn:hover{
+    color: white !important;
+    background-color: #c69963 !important;
+}
+
+
+
+
+footer{
+    background-color: #101D2c;
+    color: rgba(255,255,255,.5);
+}
+.card:hover{
+    
+ transform: scale(1.1); 
+border-radius: 40%; 
+
+
+}
+
+.about .container .modal-content{
+    background-color: grey;
+    width: 500px !important;
+    height: 450px !important;
+    margin: auto;
+    margin-top: 130px !important;
+    color: black;
+
+}
+.container nav .nav-list .dropdown-menu {
+    background-image: linear-gradient(to right, red , yellow);
+    width: 350px;
+    height: 240px;
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+    margin-right: 40px !important;
+    border-radius: 30px 20px;
+    
+}
+
+.container nav .nav-list .dropdown-menu button{
+    background-color: blueviolet;
+    margin-left: 60px;
+}
+
+.container nav .nav-list .dropdown-menu .form-control{
+    height:  30px;
+    width: 250px;
+}
+.container nav .nav-list .dropdown-menu button{
+    height: 40px !important;
+    width: 200px !important;
+}
+.container .hero-text .mr-2{
+    background-color: red;
+    color: white !important;
+    box-shadow: 0 0 40px red;
+}
+.container .hero-text .mr-2:hover{
+    
+    padding: 5px 0 !important;
+    border: 3px solid red;
+    position: relative;
+    overflow: hidden;
+    color: black !important;
+  
+    opacity: 0.8 !important;
+    
+}
+.yrt .animated{
+    animation-delay: 1.6s;
+}
+
+.yrt h1{
+    margin-left:500px  !important;
+    margin-bottom: 50px !important;
+}
+.rtx .animated{
+    animation-delay: 2s;
+}
+
+
+@media(min-width: 576px){
+    .nav-brand{
+        max-width: 150px;
+    }
+
+    .point-left::before,
+    .point-right::before {
+        display:none;
+    }
+    .hamburger-menu{
+        top: 35px;
+        right: 25px;
+    }
+}
+.about .container .row img{
+    padding-top: 30px !important;
+}
+.about .container .row img:hover{
+    transform: scale(1.5);
+
+}
+
+
+
+
+
+
+.about .container .modal .modal-body{
+    margin-top: -90px !important;
+    height: 80px !important;
+
+}
+@media(min-width: 768px){
+.btn{
+    width: 150px;
+}
+    .point-left::before,
+    .point-right::before{
+        display:none;
+    }
+    
+}
+.yrt h1{
+    margin-left: 35px !important;
+}
+.yrt{
+    padding-top: -50px;
+    margin-top: -40px;
+    
+}
+.yrt .container .col-md-4{
+    margin-top: 25px !important;
+}
+.rtx{
+    margin-top: -90px !important;
+}
+.rtx .container  .col-md-4{
+    margin-top: 25px !important;
+}
+
+@media(min-width: 992px){
+  header > .container{
+      padding: 0 15px;
+  }
+    .hamburger-menu{
+        display: none;
+    }
+    .nav-brand{
+        position: initial;
+        transform: initial;
+    }
+    .nav-list{
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        flex-direction: row;
+        opacity: initial;
+        transform: initial;
+        transition: initial;
+        margin: 0;
+        padding: 0;
+
+    }
+    .nav-link{
+        margin: 0 30px;
+    }
+    .nav-item:last-child{
+        margin-right: 0;
+    }
+    .nav-link{
+        position:relative;
+        padding: 0;
+    }
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        background-color: #c69963;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transformn 650ms;
+    }
+    .nav-link:hover::before{
+        transform: scaleX(1);
+    }
+}
+.card{
+    border: 2px solid gold;
+    border-radius: 50px 20px;
+    padding: none;
+    outline: none;
+    overflow: hidden;
+
+}
+.card .card-body{
+    background-color:grey;
+    border: 1px solid black;
+    text-justify: auto;
+}
+
+
+@media(min-width: 1200px){
+    .point-right::before,
+    .point-left::before{
+        display: block;
+        top: 50%;
+        left: initial;
+        transform: translate(0, -50%) rotate(45deg);
+    }
+}
+

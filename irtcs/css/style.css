@@ -1,0 +1,108 @@
+ body{
+ background-image: linear-gradient(90deg, violet, cyan);
+ background-size: 100%;
+ background-size: cover;
+
+ }
+
+
+
+.login_section{
+	box-shadow: 0 0 5px black;
+    width: 320px !important;
+    text-align: center;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+   
+    box-shadow: 0 0 50px black;
+}
+
+#ID{
+	  font-size: 18px;
+    margin: 5px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background:transparent;
+    
+
+}
+
+#password{
+ font-size: 18px;
+    margin: 5px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background:transparent;
+    
+
+}	
+
+#email{
+    font-size: 18px;
+       margin: 5px;
+       height: 35px;
+       border: none;
+       outline: none;
+       border-radius: 5px;
+       background:transparent;
+       
+   
+   }	
+
+   #c_passwword{
+    font-size: 18px;
+       margin: 5px;
+       height: 35px;
+       border: none;
+       outline: none;
+       border-radius: 5px;
+       background:transparent;
+       
+   
+   }	
+
+
+
+#submit{ 
+	border:none;
+ font-size: 20px;
+    margin: 30px;
+    height: 50px;
+    border-radius: 10px;
+   width: 100px;
+  background-image:  linear-gradient(90deg, red, violet);
+  box-shadow: 0 0 5px black;
+}
+
+        .fa-user-circle{
+
+            color:red;
+
+            font-size: 50px;
+
+            margin-top: -70px !important;
+
+            
+
+            border-radius: 50%;
+            text-align: center;
+        }
+
+
+        footer{
+            background-color: #101D2c;
+            color: rgba(255,255,255,.5);
+        }
+
+
+
+
+
+
+        
